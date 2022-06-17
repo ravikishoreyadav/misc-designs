@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body{background-color: yellowgreen;
+		}
+		.con{ padding: 70px;
+			background-image: url("bgs.jpg") ;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;			
+			}
+		form{color: #fff3e2 ;
+			 font-size: x-large;
+			}
+
+		input[type="text"] ,input[type="email"] ,input[type="date"] ,input[type="number"]{
+			margin-top: 20px;
+            width: 97%;
+             padding: 20px;
+             border-radius: 20px;
+             border-color: #000000;
+             }
+             input[type="submit"]{
+             	width: 20%;
+             	background-color: transparent;
+             	display: block;
+             	margin-left: auto;
+             	padding: 10px;
+             	font-size: large;
+             	cursor: grab;
+             	color: white;
+             	border-radius: 20px;
+             	border-color: #ffaa2b;
+             }
+             input[type=submit]:hover{
+             	background-color: #ffaa2b;
+             	color: black;
+             }
+
+             .cont{width: 50%;
+             }
+                 
+input[type=text]:focus, input[type="email"]:focus, input[type="number"]:focus {
+  background-color: #ffe7ca;
+  outline: none;
+     
+  	</style>
+  </head>
+	<body><div class="con">
+		
+		<form>	
+		
+		<div class="ing">		
+			<h1 style="font-family: sans-serif,Helvetica; text-align: center; text-transform: capitalize; color: #ffaa2b;"> Student Registeration Form</h1>
+			<hr>
+			<br>
+			<label >First Name</label>
+			<input type="text" name="text" placeholder="First Name" autocomplete="off" required ><br><br>
+			<label >Last Name</label>
+			<input type="text" name="text" placeholder="Last Name" autocomplete="off"  ><br><br>
+			<label ><b>Gender:-</b></label>
+				<input type="radio" value="Male" name="gender" checked > Male 
+                <input type="radio" value="Female" name="gender"> Female 
+                <input type="radio" value="other" name="gender"> Other<br><br>
+               <label>Enter Email</label>
+ 
+			<input type="email" name="email" placeholder="Example@Email.com" autocomplete="off" required><br><br>
+			<label>Enter your Birthday</label>
+			<input type="date" id="datemax" name="datemax"  placeholder="DOB"><br><br>
+			<label>Phone</label>
+			<input type="number" name="number" name="number"placeholder="Phone" autocomplete="off" required>
+			
+			<br>
+			<br>
+			<label>Select course</label><br>
+			<select>
+				<option value="course">Course</option>
+				<option value="BBA">BBA</option>
+				<option value="MBA">MBA</option>
+				<option value="B.sc">B.sc</option>
+				<option value="BA">BA</option>
+				<option value="B.Tech">B.Tech</option>
+				</select>
+		<br>
+			<label>Last Education Certificate</label><br>
+			<input type="file" name="file"><br>
+			<input type="submit" value="Register">
+			
+		</div>
+		</form>
+		</div>
+	</body>
+	
