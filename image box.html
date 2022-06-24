@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>image box</title>
+<style>
+* {
+  box-sizing: border-box;}
+.container {
+  position: relative;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  text-align:center;
+  font-size: 18px;
+  background-color: #11181185;
+  width: 100%;
+  padding: 9px;
+  color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+img { 
+  width: 100%;
+  height:250px;
+  
+  
+}
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 4px;
+  
+}
+.bottomleft:hover {
+    color: #c63dff;
+    background-color: #ffe4c4;
+}
+</style>
+</head>
+<body>
+
+
+<div class="img-container">
+<div class="container">
+  <img src="design-1.jpg"  >
+  <div class="bottomleft">Working</div></div></div>
+  <div class="img-container">
+  <div class="container">
+   <img src="design-2.jpg" >
+  <div class="bottomleft">Design</div></div></div>
+  <div class="img-container">
+  <div class="container">
+   <img src="design-3.jpg"  >
+  <div class="bottomleft">Coding</div>
+</div></div></div>
+
+</body>
+</html>
+
+
