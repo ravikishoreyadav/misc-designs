@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<title>seeker|job portal</title>
+
+	<style>
+
+        * {
+  box-sizing: border-box;
+}
+
+		body{margin: 0;
+            background-color: #F5F4F5;}
+            header {
+    background-color: F5F4F5;
+}
+
+.single-line {
+    display: flex;
+    justify-content:  space-evenly;
+    align-items: center;
+    background-color: #fff;
+}
+.nav ul li {
+    display: inline-block;
+    padding: 5px;
+}
+.nav {
+    display: flex;
+    align-items: baseline;
+}
+a {
+    text-decoration: none;
+    padding: 8px;
+}
+a.request-a-quote {
+    background-color: #00f;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.9s;
+}
+
+.selection {
+    display: flex;
+    align-items: center;
+}
+  
+
+  .banner {
+  	background-image: url(banner.jpg);
+  	text-align: center;
+  padding: 124px 0px;
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+    }
+.banner-content {
+    padding-top: 135px;
+color: #fff;
+}
+
+
+.banner-text {
+    color: #fff;
+}
+	
+    .banner-text h1 {
+    font-size: 48px;
+}
+.banner-text h2 {
+    font-size: 28px;
+}
+    select#country {
+    border: none;
+}
+.banner-content h1 {
+    font-size: 58px;
+}
+.banner-content h2 {
+    font-size: 34px;
+}
+.regs {
+    display: flex;
+    align-items: center;
+    padding: 0px 39px 0px 30px;
+}
+.globs {
+    display: flex;
+    align-items: center;
+}
+.banner-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="text"] {
+    padding: 15.5px 50px;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+    background-image: url(search-bg.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}
+select#location {
+    padding: 15px 90px;
+    border: none;
+    background-image: url(location-bg.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}
+input[type="submit"] {
+    padding: 16px 30px;
+    background-color: #00f;
+    border: none;
+    color: #fff;
+    border-radius: 0px 20px 20px 0px;
+}
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #211af7;
+}
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  
+	</style>
+
+
+</head>
+<body>
+<header>
+	<div class="single-line">
+	<div class="nav">
+		<img src="logo-job.png" height="100%" >
+	
+
+		<ul>
+			<li><a href="#home">HOME</a></li>
+		<li><a href="#home">JOB LIST</a></li>
+			<li><a href="#home">JOB DETAILS</a></li>
+				<li><a href="#home">JOB POPST</a></li>
+					<li><a href="#home">PAGES</a></li>
+						
+</ul>
+	</div> 
+	<div class="selection">
+        <div class="globs">
+        <i class="fa-solid fa-earth-africa"></i>
+
+<form action="/action_page.php">
+  <select name="country" id="country">
+    <option value="india">INDIA</option>
+    <option value="China">CHINA</option>
+    <option value="UK">UK</option>
+    <option value="USA">USA</option>
+  </select>
+</form>
+</div>
+<div class="regs">
+<i class="fa-solid fa-user"></i>
+	<a href="#home">SIGN IN / REGITER</a>
+</div>
+	<a href="#" class="request-a-quote">POST JOB</a>
+	</div>
+	</div>
+</header>
+<div class="banner">
+<div class="banner-text">	
+   <h1>The Easiest Way to Get Your New Job</h1> 
+   <h2>We offer 12000 jobs vacation right now</h2>
+</div>
+<div class="banner-form">
+<div class="form">
+      <input type="text" placeholder="JOB KEYWORD.." name="search2">
+  </div>
+      <div class="lac">
+      <select name="location" id="location" >
+    <option value="location">LOCATION</option>
+    <option value="india">INDIA</option>
+    <option value="usa">USA</option>
+    <option value="uk">UK</option>
+  </select>
+</div>
+  <div class="sub">
+  <input type="submit" value="SEARCH">
+</div>
+</div>
+</body>
+</html>
