@@ -11,9 +11,13 @@
         * {
   box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
 		body{margin: 0;
-            background-color: #F5F4F5;}
+            background-color: #F5F4F5;
+        font-family: 'Oswald', sans-serif;
+        font-size: 14px;
+        }
             header {
     background-color: F5F4F5;
 }
@@ -133,8 +137,58 @@ input[type="submit"] {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
-  
+  background-color: rgba(0,0,0,0.5);}
+
+  .choose {
+    text-align: center;
+    background-color: #00f;
+    padding: 1px;
+    color: #fff;
+    font-size: 27px;
+}
+
+.photo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.conthead {
+    text-align: center;
+}
+.contpera {
+    text-align: center;
+}
+
+
+.deal {
+    float: left;
+    width: 25%;
+}
+.contener {
+    display: flex;
+    padding: 39px 24px 0px 3px;
+}
+.deal {
+    border-right: solid 1px #34344229;
+}
+.free {
+    border-right: solid 1px #34344229;
+}
+.support {
+    border-right: solid 1px #34344229;
+}
+button {
+    background-color: #00f;
+    border: solid 1px #00f;
+    padding: 13px;
+    border-radius: 17px;
+    color: #fff;
+    font-size: 14px;
+}
+button:hover {
+    background-color: #050e0e;
+    border: solid 1px #050e0e;
+}
 	</style>
 
 
@@ -176,6 +230,7 @@ input[type="submit"] {
 	</div>
 	</div>
 </header>
+<section>
 <div class="banner">
 <div class="banner-text">	
    <h1>The Easiest Way to Get Your New Job</h1> 
@@ -185,7 +240,7 @@ input[type="submit"] {
 <div class="form">
       <input type="text" placeholder="JOB KEYWORD.." name="search2">
   </div>
-      <div class="lac">
+      <div class="location">
       <select name="location" id="location" >
     <option value="location">LOCATION</option>
     <option value="india">INDIA</option>
@@ -197,5 +252,43 @@ input[type="submit"] {
   <input type="submit" value="SEARCH">
 </div>
 </div>
+</section>
+<section>
+<div class="choose">
+
+    <h1>Why Choose Us Our Serrvices </h1>
+</div>
+</section>
+<section>
+<div class="contener">
+<div class="deal">
+<div class="photo"><img src="gift.png" style="width:100px;height:100px;"></div>
+<div class="conthead"><h1>Exclusive Deals</h1></div>
+<div class="contpera"><h3>Call us anytime for any assistance. we do not go into hibernation </h3>
+<button onclick="document.location='#'">Check Deal</button></div>
+
+</div>
+<div class="free">
+<div class="photo"><img src="flight.png" style="width:100px;height:100px;"></div>
+<div class="conthead"><h1>Free Cancellation </h1></div>
+<div class="contpera"><h3>Lock any airfare that sounds great. You don't lose anything of you cancel it  </h3><button onclick="document.location='#'">Click to cancel</button></div>
+</div>
+<div class="support">
+    <div class="photo"><img src="phone.png" style="width:100px;height:100px;"></div>
+<div class="conthead"><h1>24/7 Support </h1></div>
+<div class="contpera"><h3>Call us anything for any assistance.we do not go into hibernation </h3><button onclick="document.location='#'">Call   us</button></div>
+    </div>
+    <div class="booking">
+        <div class="photo"><img src="laptop.png"style="width:100px;height:100px;"></div>
+<div class="conthead"><h1>Secure and Easy Booking </h1></div>
+<div class="contpera"><h3>your personal and financial information stay secure with us  </h3><button onclick="document.location='#'">Book Now</button></div>
+    </div>
+</div>
+</section>
+<section><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lo</p></section>
+
+
+
+</section>
 </body>
 </html>
