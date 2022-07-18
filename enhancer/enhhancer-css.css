@@ -1,0 +1,199 @@
+body{margin: 0;
+font-family: sans-serif;
+}
+nav {
+	background-color: #12060670;
+}
+
+nav ul {
+	padding: 0;
+  margin: 0;
+	list-style: none;
+	position: relative;
+	}
+	
+nav ul li {
+	display: inline-block;
+    background-color: #e64a1900;
+    color: #080201;
+    position: relative;
+    left: 393px;
+}
+
+nav a {
+	display: block;
+    padding: 0 10px;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 60px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover { 
+	background-color: white; 
+	color: black;
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; /* the height of the main nav */
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+    left: 12px;
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+	position: relative;
+	top:-60px; 
+	left:170px;
+}
+
+.banner {
+    background-image: url(snohetta.png);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bannertext h1 {
+    color: #fff;
+    font-size: 62px;
+    font-weight: 700;
+}
+.bannertext h5 {
+    color: rgb(249, 12, 78);
+    font-size: 17px;
+}
+.bannertext a {
+    color: #fff;
+}
+.bannertext {
+    top: 19%;
+    position: absolute;
+    left: 17%;
+}
+    .contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-end;
+}
+.contact .fa-solid, .fas {
+    font-size: 61px;
+    color: #090303f0;
+    margin: 0px -108px 0px 21px;
+
+}
+.contactbutton button {
+    background-image: url(oay.png);
+    background-repeat: no-repeat;
+}
+header {
+    position: absolute;
+    background-color: #00000029;
+    width: 100%;
+}
+.contactbutton button h2,p {
+    margin: 0;
+}
+.contactbutton button {
+    background-image: url(oay.png);
+    background-repeat: no-repeat;
+    background-color: rgb(249, 12, 78);
+    padding: 13px 23px 18px 70px;
+    border: #ffdead00;
+    border-radius: 25px;
+    color: #fff;
+    background-position: 10px;
+}
+.contacttext h2 {
+    margin: 15px 18px 12px 0px;
+}
+.servicehead h2 {
+    text-align: center;
+    font-size: xx-large;
+}
+hr.solid {
+    border-top: 4px solid #be0000;
+    width: 5%;
+}
+.servicecontent {
+    background-image: url(master-bathroom-tips.jpg);
+    background-size: cover;
+    height: 700px;
+    width: 1118px;
+}
+.Firstblock {
+    display: flex;
+    background-color: #ffffff78;
+    width: 81%;
+    left: 50%;
+    position: relative;
+}
+.Firstblock .serviceblock .services {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    padding: 20px;
+    margin: 18px;
+}
+.secondblock {
+    display: flex;
+    background-color: #ffffff78;
+    width: 81%;
+    left: 50%;
+    position: relative;
+    height: 37%;
+}
+.secondblock .serviceblock .services {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    padding: 20px;
+    margin: 18px;
+}
+.servicetext {
+    margin: 20px;
+    padding: 18px;
+    position: relative;
+    bottom: 20px;
+}
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 66px;
+}
+.services {
+    box-shadow: 0px 0px 20px 0px #0000001c;
+}
+.services h3 {
+    font-size: 29px;
+    font-weight: 100;
+}
+.services img {
+    width: 116px;
+    height: 100px;
+}
+
+
+
+
+
+
+
