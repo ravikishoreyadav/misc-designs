@@ -119,6 +119,7 @@ header {
     border-radius: 25px;
     color: #fff;
     background-position: 10px;
+    cursor: grab;
 }
 .contacttext h2 {
     margin: 15px 18px 12px 0px;
