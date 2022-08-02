@@ -129,7 +129,7 @@ header {
     font-size: xx-large;
 }
 hr.solid {
-    border-top: 4px solid #be0000;
+    border-top: 4px solid #f90c4e;
     width: 5%;
 }
 .servicecontent {
@@ -191,7 +191,11 @@ hr.solid {
     width: 116px;
     height: 100px;
 }
-
+hr.solidsecond {
+    border-top: 4px solid #f90c4e;
+    width: 5%;
+    margin-left: inherit;
+}
 
 
 
