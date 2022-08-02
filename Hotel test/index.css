@@ -1,0 +1,108 @@
+::selection {
+  color: white;
+  background: black;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.firsthead {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 38px;
+    background-color: darkslategrey;
+    align-items: center;
+    text-align: center;
+}
+.firsthead h4{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.firsthead a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.secondhead {
+    background-color: #ff9907;
+}
+.secondhead {
+    background-color: #ff9907;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+}
+.second a {
+    font-size: 24px;
+    color: darkslategrey;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px;
+    transition: 0.5ss;
+}
+.second a:hover {
+    color: #fff;
+}
+.second img {
+    width: 316px;
+    height: 59px;
+}
+.second input[type="text"] {
+    height: 32px;
+    border: 2px solid #000;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #ffffd5;
+    border-right: none;
+    outline: none;
+}
+.second button {
+    border: 2px solid black;
+    border-left: none;
+    height: 38px;
+    border-radius: 0px 10px 10px 0px;
+    margin: 0px 0px 0px -6px;
+}
+/****************************************************Header close********************************************/
+.main {
+    background-image: url(slide.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+}
+.main a {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    padding: 19px;
+    text-decoration: none;
+    background-color: yellowgreen;
+    width: 155px;
+}
+.main a {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    padding: 19px;
+    text-decoration: none;
+    background-color: #ff9907;
+    width: 155px;
+    color: #2f4f4f;
+    font-weight: 800;
+    transition: 0.5s;
+}
+.main a:hover {
+    background-color: #2f4f4f;
+    color: #ffffff;
+}
+.srvices {
+    border-top: 5px dotted #ff9907;
+    margin: 6px 2px;
+}
+.srvices h1 {
+    text-align: center;
+    color: #2f4f4f;
+    font-size: 60px;
+    margin: 8px;
+}
