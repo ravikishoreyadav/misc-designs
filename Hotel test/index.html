@@ -36,20 +36,100 @@
 			<div class="second">
 				<form action="/action_page.php">
 					<input type="text" placeholder="Search.." name="search">
-					<button type="submit">Submit</button>
+					<button type="submit">Search</button>
 				</form>
 			</div>
 		</div>
 	</header>
 	<!-------header close--------->
-<section>
-	<div class="main">
-<a href="#" target="_blank">BOOK NOW</a></div>
-</section>
-<section>
-	<div class="srvices">
-<h1>Service</h1>
-</div>
-</section>
+	<section>
+		<div class="boxback">
+			<div class="box">
+				<a class="button" href="#popup1">BOOK YOUR TABLE</a>
+			</div>
+
+			<div id="popup1" class="overlay">
+				<div class="popup">
+					
+					<a class="close" href="#">&times;</a>
+					<div class="content">
+						<div class="form">
+						<form>
+							<label>Name <span style="color: red;"> *</span></label><br>
+							<input type="text" placeholder="Name" required><br>
+							<label>Phone <span style="color: red;"> *</span></label><br>
+							<input type="tel" placeholder="Phone" required><br>
+							<label>Email</label><br>
+							<input type="mail" placeholder="Email"><br>
+							<label>Date <span style="color: red;"> *</span></label><br>
+							<input type="date" placeholder="Date" autocomplete="off" required><br>
+							<label>Time</label><br>
+							<input type="time"><br>
+							<label>Number of Guest <span style="color: red;"> *</span></label><br>
+							<select ><option>2</option>
+								<option>1</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+								<option>10+ (Specify in Comments)</option>
+							</select><br>
+							<label>Additional Requests</label><br>
+							<textarea>Massage</textarea><br>
+							<input type="submit" name="Submit">
+						</form>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="srvices">
+			<h1>Extra Facility</h1>
+		</div>
+		<div class="servicecolumn">
+			<div class="column" >
+				<h2>POOL</h2>
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.  </p>
+			</div>
+			<div class="column " >
+				<h2>In Room Dining</h2>
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+			</div>
+			<div class="column" >
+				<h2>Live kitchen</h2>
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+			</div>
+			<div class="column" >
+				<h2>Play Area</h2>
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+			</div>
+			<div class="column" >
+				<h2>Kids Zone</h2>
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.  </p>
+			</div>
+			<div class="column " >
+				<h2>Golf</h2>
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="roomhead">
+			<h2>Our Rooms</h2>
+		</div>
+		<div class="grid-container">
+			<div class="grid-item item1"><img src="Room-Type-double-double-Room.jpg"></div>
+			<div class="grid-item item2"><img src="Room-Type-Double-Room.jpg"></div>
+			<div class="grid-item item3"><img src="Room-Type-Hollywood-Twin-Room.jpg"></div>  
+			<div class="grid-item item4"><img src="Room-Type-Junior-suite-Room.jpg"></div>
+			<div class="grid-item item5"><img src="Room-Type-Triple-Room.jpg"></div>
+		</div>
+	</section>
 </body>
 </html>
