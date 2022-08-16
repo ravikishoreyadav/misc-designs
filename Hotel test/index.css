@@ -198,6 +198,7 @@ body {
 .column p {
     text-align: center;
     margin: 26px;
+    color: white;
 }
 
 .column:hover {
