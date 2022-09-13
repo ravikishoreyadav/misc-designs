@@ -28,26 +28,33 @@ header {
 .logo {
     padding: 5px;
 }
-.menu {
+.nav {
     padding: 5px;
 }
-.menu a {
+.nav a {
     padding: 21px;
     text-decoration: none;
     color: black;
 }
 /****************************************************Header close********************************************/
+::selection {
+  color: white;
+  background: darkblue;
+}
 .bannerimg {
     max-width: 100%;
     height: auto;
     position: relative;
 }
 .about {
-    width: 85%;
+    width: 75%;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 50px;
+}
+.aboutus img {
+    border-radius: 10px;
 }
 .aboutus h1 {
     text-align: center;
@@ -64,12 +71,83 @@ header {
 .aboutus p {
     font-size: 20px;
     letter-spacing: 1px;
+    padding: 32px 20px;
+    line-height: 1.2;
 }
 span.seasonal {
     background-color: #5e5e5e69;
 }
-span.content {
+.content {
     font-size: 20px;
     letter-spacing: 1px;
     color: #00000075;
+    padding: 0px 20px;
+    line-height: 1.2;
+}
+hr {
+    border: 1px;
+    border-top: 1px solid #eee;
+    margin: 25px 0;
+}
+.hr {
+    width: 75vw;
+    margin: auto;
+    display: block;
+}
+.menu {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+}
+.menu img {
+    border-radius: 10px;
+}
+.menu h1 {
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-size: 36px;
+}
+.menu h4 {
+    text-align: left;
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin: 0;
+    font-size: 20px;
+    padding: 25px 0px 0px 0px;
+}
+.menu p {
+    color: #0000009e;
+    font-size: 17px;
+    padding: 0px 0px 0px 0px;
+}
+.contact {
+    width: 75%;
+    margin: auto;
+    padding: 50px;
+}
+.contact h1 {
+    text-align: left;
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-size: 36px;
+}
+.contact-contant h5 {
+    color: #68690f;
+    font-size: 17px;
+}
+span#catermail a {
+    color: black;
+    text-decoration: none;
+}
+span#catermail a:hover{
+text-decoration: underline;
+}
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+    width: 100%;
 }
