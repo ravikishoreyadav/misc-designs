@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/x-icon" href="favicon.svg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Contact us</title>
+</head>
+<body>
+	<div id="myNav" class="overlay">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="overlay-content">
+			<a href="#">About</a>
+			<a href="#">Services</a>
+			<a href="#">Clients</a>
+			<a href="#">Contact</a>
+		</div>
+	</div>
+
+	<header>
+		<div class="navbar">
+			<div class="site-logo">
+				<a href="#"><img src="site-logo.svg"></a>
+			</div>
+			<div class="menu-bar">
+				<i class="fa-solid fa-magnifying-glass"></i>
+				<i class="fa-solid fa-cart-shopping"></i>
+				<span style="font-size:30px;cursor:pointer" onclick="openNav()"> <i class="fa-solid fa-bars"></i></span>				
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="contct-heading">contact us </div>
+		<div class="contct-discription"> Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae </div>
+	</section>
+	<div class="contact-info">
+		<div class="contact-form form-text">
+			
+			<div class="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7097.235044019735!2d77.95621422531573!3d27.199755532019207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1666005738019!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<h2>CONTAT US</h2>
+				<h1>Please Get In touch</h1>
+				<form>
+					<div class="coll-1">
+						<input type="text" name="text" placeholder="Name" autocomplete="on">
+						<input type="email" name="email" placeholder="Email">
+						<input type="tel" name="tel" placeholder="Enter your Phone number">
+					</div>
+					<div class="coll-full">
+						<textarea>Massage</textarea>
+						<button>Submit</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="more-info">
+			<div class="image-box">
+				<div class="ct-img">
+					<img src="map.svg" alt="map-image">
+				</div>
+				<div class="ct-text">
+					<h1>Address :</h1>
+					<p>123 Ave, Lorem City, site Country, The World</p>
+				</div>
+			</div>
+			<div class="image-box">
+				<div class="ct-img">
+					<img src="phone.svg" alt="phone-image">
+				</div>
+				<div class="ct-text">
+					<h1>Phone:</h1>
+					<p>(001) 123456789 - 234567891 info@mail.com</p>
+				</div>
+			</div>
+			<div class="image-box">
+				<div class="ct-img">
+					<img src="time.svg" alt="clock-image">
+				</div>
+				<div class="ct-text">
+					<h1>Working Time :</h1>
+					<p>Monday - Friday &nbsp    09.00 - 23.00 Sunday &nbsp &nbsp &nbsp     &nbsp    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          09.00 - 16.00</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="social-links">
+
+		<div class="instagram">
+			
+				<h5 class="textsocail">Follow Our Product On Instagram</h5>
+		
+
+			</div>
+		</div>
+		<div class="mailer"></div>
+	</div>
+
+	<script>
+		function openNav() {
+			document.getElementById("myNav").style.width = "100%";
+		}
+
+		function closeNav() {
+			document.getElementById("myNav").style.width = "0%";
+		}
+	</script>
+</body>
+</html>
